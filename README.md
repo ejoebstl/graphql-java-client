@@ -5,7 +5,7 @@ Capable of connecting to an endpoint, then fetching query results. Also accepts 
 ### Usage
 
 ```java
-URL graphqlEndpoint = ...; 
+URL graphqlEndpoint = new URL("your endpoint"); 
 
 Map<String, String> headers = new HashMap<>();
 headers.put("Authentication", "Bearer: 123456");
