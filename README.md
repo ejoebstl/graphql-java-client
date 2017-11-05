@@ -4,7 +4,7 @@ Capable of connecting to an endpoint, then fetching query results. Also accepts 
 
 ### Usage
 
-```
+```java
 URL graphqlEndpoint = ...; 
 
 Map<String, String> headers = new HashMap<>();
