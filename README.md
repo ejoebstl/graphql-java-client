@@ -12,7 +12,7 @@ headers.put("Authentication", "Bearer: 123456");
 
 String query = 
     "query(\n" +
-    "  searchText: String!\n" +
+    "  $searchText: String!\n" +
     ")\n" +
     "  allNotes(filter: { text_contains: $searchText } {\n" +
     "    id\n" +
